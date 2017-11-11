@@ -5,4 +5,4 @@ r = robjects.r
 r.source("testFunc.R") ## source is used to import external lib from directory
 
 r.testFunction() ## if valid, will print value from function
-x = r.testFunction() ## store sting contents in the x variable
+x = r.testFunction() ## store string contents in the x variable
